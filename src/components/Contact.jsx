@@ -2,7 +2,39 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <section id="contact">
+            <div class="contact__inner">
+                <h2 class="contact__title">Contact</h2>
+                <div class="contact__lines top" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="contact__text">
+                    <div class="text">
+                        <div>
+                            <a href="https://github.com/M2316/" target="_blank">GitHub : M2316</a>
+                        </div>
+                        <div>
+                            <a href="mailto:031pjs@gmail.com" target="_blank">mail : 031pjs@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </section>
   )
 }
 
